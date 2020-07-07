@@ -1,0 +1,20 @@
+{
+  "name": "illusion-plugin-fake-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/main.js",
+  "scripts": {
+    "r": "ts-node-dev ./src/main.ts",
+    "b": "node dist/main.js",
+    "c": "tsc",
+    "w": "tsc --watch"
+  },
+  "author": "sawich <sawich@angeldev.org>",
+  "license": "ISC",
+  "dependencies": {
+    "@types/express": "^4.17.7",
+    "express": "^4.17.1",
+    "ts-node-dev": "^1.0.0-pre.50",
+    "typescript": "^3.9.6"
+  }
+}
